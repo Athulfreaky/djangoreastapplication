@@ -21,24 +21,5 @@ class Activity_Period_Model_serializer(serializers.ModelSerializer):
         fields = ('username','start_time','end_time')
 
 
-# class ProfileSerializer(serializers.ModelSerializer):
-#     user = serializers.Field(source='user.username')
 
-#     class Meta:
-#         model = Profile
-#         fields = ('id', 'name', 'active', 'type', 'user')
-
-# class StationSerializer(serializers.ModelSerializer):
-#     station = serializers.CharField(read_only=True)
-
-#     class Meta:
-#         model = Station
-
-
-# class FlatSerializer(serializers.ModelSerializer):
-#     station_name = serializers.CharField(source='station.name', read_only=True)
-
-#     class Meta:
-#         model = Flat
-#         fields = ('station_name', )
 
