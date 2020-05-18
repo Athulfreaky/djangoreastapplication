@@ -25,4 +25,14 @@ Endpoints are as  follows:
 | Method | GET |
 | Content Type | application/json |
 
+3. http://3.22.21.146/combined_view/
+
+>This endpoint gives you the users and their activities
+
+|  |  |
+|--|--|
+| Method | GET |
+| Content Type | application/json |
+
+
 
